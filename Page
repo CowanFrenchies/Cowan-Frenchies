@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cowan Kennel</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+        header { background: #f4a261; padding: 20px; font-size: 24px; color: white; }
+        nav a { margin: 0 15px; text-decoration: none; color: #333; }
+        section { padding: 20px; }
+        .puppy-list img { width: 200px; height: auto; margin: 10px; }
+        footer { background: #264653; color: white; padding: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        Cowan Kennel - Adorable Puppies for Sale
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#puppies">Available Puppies</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section id="home">
+        <h1>Welcome to Cowan Kennel</h1>
+        <p>Your trusted source for loving, healthy puppies.</p>
+    </section>
+    
+    <section id="puppies" class="puppy-list">
+        <h2>Available Puppies</h2>
+        <p>Check out our adorable puppies ready for their forever homes!</p>
+        <img src="puppy1.jpg" alt="Puppy 1">
+        <img src="puppy2.jpg" alt="Puppy 2">
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Cowan Kennel is dedicated to raising happy, healthy puppies with love and care.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@cowankennel.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+    
+    <footer>
+        &copy; 2025 Cowan Kennel. All Rights Reserved.
+    </footer>
+</body>
+</html>
